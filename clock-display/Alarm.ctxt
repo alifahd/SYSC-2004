@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Alarm
+comment0.text=\r\n\ The\ Alarm\ class\ implements\ a\ digital\ clock\ display\ for\ a\r\n\ 12\ hour\ clock\ that\ will\ act\ as\ teh\ Alarm\ time\ instead\ of\ the\ regular\ time.\r\n\ The\ clock\ shows\ hours\ and\ minutes.\ The\ range\ of\ the\ clock\ is\ 12\:00a.m.\ \r\n\ (midnight)\ to\ 11\:59p.m.\ (one\ minute\ before\ midnight).\r\n\ \r\n\ @author\ Ali\ Ahmad\ Fahd\r\n\ @version\ 2019.09.21\r\n
+comment1.params=
+comment1.target=Alarm()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Alarm.\ This\ constructor\ \r\n\ creates\ a\ new\ alarm\ clock\ set\ at\ 12\:00a.m.\ and\ sets\ the\ alarm\ to\ \r\n\ turned\ off.\r\n
+comment2.params=hour\ minute\ amPm\ alrmOn
+comment2.target=Alarm(int,\ int,\ java.lang.String,\ boolean)
+comment2.text=\r\n\ Constructor\ for\ Alarm\ objects.\ This\ constructor\r\n\ creates\ a\ new\ alarm\ clock\ set\ at\ the\ time\ specified\ by\ the\ \r\n\ parameters\ and\ turns\ the\ alarm\ on\ or\ off\r\n
+comment3.params=hour\ minute\ amPm
+comment3.target=void\ setTime(int,\ int,\ java.lang.String)
+comment3.text=\r\n\ Set\ the\ time\ of\ the\ alarm\ display\ to\ the\ specified\ hour\ and\r\n\ minute.\ Also\ sets\ am\ or\ pm.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getTime()
+comment4.text=\r\n\ Return\ the\ current\ time\ of\ this\ alarm\ display\ in\ the\ format\ HH\:MM.\r\n
+comment5.params=
+comment5.target=void\ turnOn()
+comment5.text=\r\n\ Method\ turns\ the\ alarm\ on.\r\n
+comment6.params=
+comment6.target=void\ turnOff()
+comment6.text=\r\n\ Method\ turns\ the\ alarm\ off.\r\n
+comment7.params=
+comment7.target=boolean\ isSet()
+comment7.text=\r\n\ Method\ returns\ whether\ or\ not\ the\ alarm\ is\ on/off.\r\n
+numComments=8
