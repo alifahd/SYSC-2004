@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Deck
+comment0.text=\r\n\ Deck\ models\ a\ deck\ of\ 52\ Anglo-American\ playing\ cards.\r\n\ \r\n\ @author\ Lynn\ Marshall\ \r\n\ @version\ 1.1\ October\ 11,\ 2012\r\n\r\n\ @author\ Ali\ Fahd\ \r\n\ @version\ 1.2\ October\ 15,\ 2019\r\n\r\n
+comment1.params=
+comment1.target=Deck()
+comment1.text=\r\n\ Constructs\ a\ new,\ unshuffled\ deck\ containing\ 52\ playing\ cards.\r\n
+comment2.params=suit
+comment2.target=void\ buildSuit(java.lang.String)
+comment2.text=\r\n\ Creates\ the\ 13\ cards\ for\ the\ specified\ suit,\ and\ adds\ them\r\n\ to\ this\ deck.\r\n
+comment3.params=
+comment3.target=void\ shuffle()
+comment3.text=\r\n\ Shuffles\ this\ deck\ of\ cards.\r\n
+comment4.params=
+comment4.target=Card\ dealCard()
+comment4.text=\r\n\ Removes\ a\ card\ from\ this\ deck.\r\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\r\n\ Determines\ if\ this\ deck\ is\ empty.\r\n
+comment6.params=
+comment6.target=int\ size()
+comment6.text=\r\n\ Returns\ the\ number\ of\ cards\ that\ are\ currently\ in\ the\ deck.\r\n
+numComments=7
