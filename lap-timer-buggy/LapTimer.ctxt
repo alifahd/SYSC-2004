@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LapTimer
+comment0.text=\r\n\ The\ main\ class\ of\ a\ lap\ timer\ application.\ Create\ one\ of\ these\ and\ you'll\r\n\ get\ the\ lap\ timer\ on\ screen.\r\n\ \r\n\ @author\ Michael\ Kolling\r\n\ @version\ 20\ Spetember\ 2004\r\n
+comment1.params=
+comment1.target=LapTimer()
+comment1.text=\r\n\ Create\ a\ new\ lap\ timer\ and\ show\ it.\r\n
+comment2.params=
+comment2.target=void\ show()
+comment2.text=\r\n\ In\ case\ the\ window\ was\ closed,\ show\ it\ again.\r\n
+numComments=3
