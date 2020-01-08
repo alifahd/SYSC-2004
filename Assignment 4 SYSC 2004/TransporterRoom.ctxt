@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ Class\ TransporterRoom\ -\ an\ in-between\ room\ in\ an\ adventure\ game.\r\n\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ A\ "Transporter\ Room"\ represents\ a\ place\ where\ a\ random\ room\ is\ chosen\r\n\ for\ a\ player\ to\ go\ to.\r\n\r\n\ @author\ Ali\ Fahd\r\n\ @version\ Nov.\ 9,\ 2019\r\n
+comment1.params=description
+comment1.target=TransporterRoom(java.lang.String)
+comment1.text=\r\n\ Create\ a\ transporter\ room\ described\ "description".\ It\ has\ no\ exits,\r\n\ it\ is\ just\ a\ room\ to\ decide\ which\ room\ to\ teleport\ the\ player\ too.\r\n\ \r\n\ @param\ description\ The\ room's\ description.\r\n
+comment2.params=room
+comment2.target=void\ addRoom(Room)
+comment2.text=\r\n\ Method\ addRoom\ just\ adds\ a\ created\ room\ in\ the\ game\ to\ the\ field\ rooms\r\n\r\n\ @param\ room\ -\ a\ room\ created\ in\ the\ game\r\n
+comment3.params=direction
+comment3.target=Room\ getExit(java.lang.String)
+comment3.text=\r\n\ Returns\ a\ random\ room,\ independent\ of\ the\ direction\ parameter.\r\n\r\n\ @param\ direction\ Ignored.\r\n\ @return\ A\ randomly\ selected\ room.\r\n
+comment4.params=
+comment4.target=Room\ findRandomRoom()
+comment4.text=\r\n\ Choose\ a\ random\ room.\r\n\r\n\ @return\ The\ room\ we\ end\ up\ in\ upon\ leaving\ this\ one.\r\n
+numComments=5
