@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SeatTest
+comment0.text=\r\n\ The\ test\ class\ SeatTest.\r\n\r\n\ @author\ \ Lynn\ Marshall\r\n\ @version\ October\ 21,\ 2012\r\n
+comment1.params=
+comment1.target=SeatTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ SeatTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCreateSeat()
+comment4.text=\r\n\ Test\ creating\ a\ seat.\r\n\ \r\n\ Check\ that\ seat\ 1\ has\ the\ correct\ price\ (within\ 0.5)\r\n\ and\ isn't\ booked.\r\n\ \r\n\ Check\ that\ seat\ 2\ has\ the\ correct\ price\ (within\ 0.5)\r\n\ and\ isn't\ booked.\r\n
+comment5.params=
+comment5.target=void\ testBooking()
+comment5.text=\r\n\ Test\ booking\ a\ seat.\r\n\ \r\n\ Book\ a\ seat\ and\ check\ that\ it\ is\ indeed\ booked.\ \ Try\ to\ book\ it\r\n\ again\ and\ check\ that\ book()\ returns\ false,\ and\ that\ the\ seat\r\n\ is\ still\ booked.\r\n
+comment6.params=
+comment6.target=void\ testCancelBooking()
+comment6.text=\r\n\ Test\ cancelling\ a\ seat\ booking.\r\n\ \r\n\ Try\ to\ cancel\ a\ booking\ that\ hasn't\ been\ made.\ \ Book\ a\ set\r\n\ and\ cancel\ the\ booking,\ and\ check\ that\ it\ isn't\ booked.\ \ Try\r\n\ cancelling\ the\ booking\ again\ and\ check\ that\ cancelBooking()\r\n\ returns\ false\ and\ that\ the\ seat\ is\ still\ not\ booked.\r\n
+numComments=7

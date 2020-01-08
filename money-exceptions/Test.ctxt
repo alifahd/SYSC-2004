@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Test
+comment0.text=\r\n\ A\ class\ to\ test\ adding\ exceptions\ and\ errors\ to\ the\ Money\ class.\r\n\ \r\n\ @author\ Lynn\ \ Marshall\r\n\ @version\ November\ 24,\ 2012\r\n
+comment1.params=
+comment1.target=Test()
+comment1.text=\r\n\ Constructor\ for\ testing\ Money.\r\n
+numComments=2

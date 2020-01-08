@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\r\n\ Car\ models\ the\ type\ of\ car\ in\ a\ passenger\ train.\r\n\r\n\ @author\ Ali\ Fahd\r\n\ @version\ 1.1\ October\ 01,\ 2019\r\n
+comment1.params=carId\ isBusinessClass
+comment1.target=Car(int,\ boolean)
+comment1.text=\r\n\ Constructs\ a\ new\ Car\ object\ with\ the\ specified\ id.\r\n\ If\ parameter\ isBusinessClass\ is\ true,\ the\ car\ is\ a\ business-class\r\n\ car.\ If\ parameter\ isBusinessClass\ is\ false,\ the\ car\ is\ an\r\n\ economy-class\ car.\r\n
+comment2.params=
+comment2.target=Seat[]\ seats()
+comment2.text=\r\n\ Returns\ this\ car's\ list\ of\ seats.\ This\ method\ is\ intended\ for\ \r\n\ testing\ purposes\ only,\ and\ should\ not\ be\ called\ by\ other\ objects,\r\n\ as\ it\ may\ be\ removed\ from\ the\ final\ version\ of\ this\ class.\r\n\ \r\n\ @return\ The\ seats\ in\ this\ car,\ an\ array\ of\ Seat\ objects.\r\n
+comment3.params=
+comment3.target=boolean\ isBusinessClass()
+comment3.text=\ \r\n\ Returns\ true\ if\ this\ is\ a\ business-class\ car,\r\n\ false\ if\ this\ is\ an\ economy-class\ car.\r\n
+comment4.params=
+comment4.target=int\ id()
+comment4.text=\r\n\ Returns\ the\ id\ of\ this\ car.\r\n
+comment5.params=seatNo
+comment5.target=void\ printTicket(int)
+comment5.text=\r\n\ This\ method\ is\ called\ when\ the\ specified\ seat\ has\ been\ booked,\r\n\ to\ print\ a\ ticket\ for\ that\ seat.\r\n\ \r\n\ @param\ seatNo\ The\ integer\ identifier\ of\ the\ seat.\r\n
+comment6.params=
+comment6.target=boolean\ bookNextSeat()
+comment6.text=\r\n\ Attempts\ to\ book\ a\ seat.\ If\ successful,\ this\ method\ prints\ a\ \r\n\ ticket\ and\ returns\ true.\r\n\ If\ no\ seats\ are\ available,\ this\ method\ returns\ false.\r\n
+comment7.params=seatNo
+comment7.target=boolean\ cancelSeat(int)
+comment7.text=\ \r\n\ Cancels\ the\ booking\ for\ the\ specified\ seat,\ which\ must\ be\ between\r\n\ 1\ and\ the\ maximum\ number\ of\ seats\ in\ the\ car.\r\n\ If\ the\ seat\ number\ is\ valid\ and\ if\ the\ seat\ has\ been\ reserved,\ this\r\n\ method\ cancels\ the\ booking\ for\ that\ seat\ and\ returns\ true.\ \r\n\ If\ the\ seat\ number\ is\ not\ valid,\ this\ method\ returns\ false.\ \r\n\ If\ the\ seat\ number\ is\ valid,\ but\ the\ seat\ has\ not\ been\ reserved,\ \r\n\ this\ method\ returns\ false.\r\n
+numComments=8
