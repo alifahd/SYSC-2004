@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=NotesGui
+comment1.params=
+comment1.target=NotesGui()
+comment2.params=e
+comment2.target=void\ focusGained(java.awt.event.FocusEvent)
+comment3.params=arg0
+comment3.target=void\ focusLost(java.awt.event.FocusEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\ \r\n\ This\ action\ listener\ is\ called\ when\ the\ user\ clicks\ /\ enters\r\n\ information\ using\ the\ GUI.\ \r\n
+comment5.params=e
+comment5.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+comment5.text=\ \r\n\ This\ change\ listener\ is\ called\ when\ the\ user\ clicks\ /\ enters\r\n\ information\ using\ the\ GUI.\ \r\n
+comment6.params=e
+comment6.target=void\ valueChanged(javax.swing.event.ListSelectionEvent)
+comment6.text=\ \r\n\ This\ list\ listener\ is\ called\ when\ the\ user\ clicks\ /\ enters\r\n\ information\ using\ the\ GUI.\ \r\n
+numComments=7
